@@ -1,11 +1,11 @@
 <script setup>
-
+import AppHeader from '@/components/AppHeader.vue';
 </script>
 
 <template>
+  <AppHeader />
   <main>
-    <h1>Hello world</h1>
-    <button type="button" class="btn btn-primary">Primary</button>
+    <h1 class="font-tourney tracking-wide">Hello world</h1>
 
   </main>
 </template>
