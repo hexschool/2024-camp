@@ -1,16 +1,18 @@
+/* Typography */
 .font-tourney {
   font-family: "Tourney", sans-serif;
 }
 
-/* naming reference:https://tailwindcss.com/docs/letter-spacing */
 .tracking-wide {
   letter-spacing: 0.12em;
 }
 
+/* Navbar */
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   font-weight: 600;
 }
 
+/* Text decorate */
 .mark {
   background-color: #fff;
   background-image: url("/images/mark.png");
