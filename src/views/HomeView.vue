@@ -49,8 +49,8 @@ import AppHeader from '@/components/AppHeader.vue';
               <h3 class="mb-2 text-primary-50">星際旅行訂票平台</h3>
               <p class="mb-3 fs-6 text-primary-50">悠遊宇宙的夢想，從這裡開始實現</p>
               <div class="pb-7 mb-7 border-bottom border-white">
-                <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
-                <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
+                <span class="badge mb-2 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
+                <span class="badge mb-2 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
                 <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">ＷordPress</span>
               </div>
               <div class="d-flex justify-content-center">
@@ -161,8 +161,8 @@ import AppHeader from '@/components/AppHeader.vue';
               <h3 class="mb-2 text-primary-50">醫美診所官網</h3>
               <p class="mb-3 fs-6 text-primary-50">永保青春的秘密，從粹究開始</p>
               <div class="pb-7 mb-7 border-bottom border-white">
-                <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
-                <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
+                <span class="badge mb-2 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
+                <span class="badge mb-2 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
                 <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">Bootstrap</span>
               </div>
               <div class="d-flex justify-content-center">
