@@ -21,7 +21,7 @@ import AppFooter from '@/components/AppFooter.vue';
             <p class="text-center text-md-start text-primary-600 fs-5">技術雙修並行，熱衷於優化使用者的網頁體驗</p>
             <p class="text-center text-md-start text-primary-400 mb-9">WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN</p>
             <div>
-              <a class="px-2 pe-3" href="#">
+              <a class="px-2" href="#">
                 <img src="@/assets/images/instagram.svg" alt="instagram">
               </a>
               <a class="px-2" href="#">
