@@ -51,7 +51,7 @@ import AppHeader from '@/components/AppHeader.vue';
               <div class="pb-7 mb-7 border-bottom border-white">
                 <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
                 <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
-                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">Bootstrap</span>
+                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">ＷordPress</span>
               </div>
               <div class="d-flex justify-content-center">
                 <a
@@ -130,6 +130,59 @@ import AppHeader from '@/components/AppHeader.vue';
         <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">APP設計</span>
         <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">iOS</span>
         <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">React</span>
+      </div>
+      <a
+        class="btn btn-sm px-3 py-2 fs-6 fw-bold text-primary-50 bg-primary-900"
+        href="#"
+      >
+        完整介紹
+        <span class="material-symbols-outlined align-top">arrow_forward</span>
+      </a>
+    </div>
+
+    <section
+      class="position-relative py-9"
+      style="background-image: url('/src/assets/images/homepage-work3-bg.png');background-repeat: no-repeat;background-position: center;background-size: cover;"
+    >
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 position-absolute top-0 start-0 bottom-0 end-0 h-100"
+            style="background-color: #0D0C0780;"
+          ></div>
+          <div class="col-12 col-md-6 col-xl-7 z-1">
+            <img class="img-fluid" src="@/assets/images/homepage-work3.png" alt="work1">
+          </div>
+          <div class="col-12 col-md-6 col-xl-5 d-none d-md-flex flex-md-column justify-content-center">
+            <div class="px-7 py-9 bg-white-overlay rounded-5">
+              <h3 class="mb-2 text-primary-50">醫美診所官網</h3>
+              <p class="mb-3 fs-6 text-primary-50">永保青春的秘密，從粹究開始</p>
+              <div class="pb-7 mb-7 border-bottom border-white">
+                <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
+                <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
+                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">Bootstrap</span>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a
+                  class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900"
+                  href="#"
+                >
+                  完整介紹
+                  <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="d-md-none pt-4 pb-8 text-center">
+      <h3 class="mb-2">醫美診所官網</h3>
+      <p class="mb-3 fs-6 text-primary-600">永保青春的秘密，從粹究開始</p>
+      <div class="mb-4">
+        <span class="badge mb-3 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
+        <span class="badge mb-3 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
+        <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">ＷordPress</span>
       </div>
       <a
         class="btn btn-sm px-3 py-2 fs-6 fw-bold text-primary-50 bg-primary-900"
