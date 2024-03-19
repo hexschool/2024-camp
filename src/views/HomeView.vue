@@ -85,7 +85,7 @@ import AppHeader from '@/components/AppHeader.vue';
     </div>
 
     <section
-      class="position-relative pt-9"
+      class="position-relative py-9"
       style="background-image: url('/src/assets/images/homepage-work2-lg.png');background-repeat: no-repeat;background-position: center;
       background-size: cover;
       min-height: 390px;"
@@ -119,6 +119,9 @@ import AppHeader from '@/components/AppHeader.vue';
                 </a>
               </div>
             </div>
+          </div>
+          <div class="col-12 col-md-6 invisible">
+            <img class="img-fluid" src="/src/assets/images/homepage-work1.png" alt="work1">
           </div>
         </div>
       </div>
