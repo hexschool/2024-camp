@@ -195,6 +195,61 @@ import AppHeader from '@/components/AppHeader.vue';
         <span class="material-symbols-outlined align-top">arrow_forward</span>
       </a>
     </div>
+
+    <section
+      class="pt-7 pb-7 pb-md-9"
+      style="background-image: url('/src/assets/images/homepage-services-bg.png');
+      background-repeat: no-repeat;
+      background-size: cover;"
+    >
+      <div class="container">
+        <h2 class="title-deco py-7 py-md-9 text-center text-primary-700 tracking-wide fw-semibold">服務項目</h2>
+        <div class="row row-gap-4 mb-7 mb-md-9">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="bg-service d-flex flex-column justify-content-center align-items-center rounded-4">
+              <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex flex-column justify-content-center align-items-center">
+                <img class="mb-4" src="@/assets/images/service-item-visual.png" alt="visual design">
+                <h3 class="text-primary-50">平面設計</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="bg-service d-flex flex-column justify-content-center align-items-center rounded-4">
+              <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex flex-column justify-content-center align-items-center">
+                <img class="mb-4" src="@/assets/images/service-item-ui.png" alt="ui design">
+                <h3 class="text-primary-50">UI 設計</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="bg-service d-flex flex-column justify-content-center align-items-center rounded-4">
+              <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex flex-column justify-content-center align-items-center">
+                <img class="mb-4" src="@/assets/images/service-item-html&css.png" alt="html and css">
+                <h3 class="text-primary-50">切版服務</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="bg-service d-flex flex-column justify-content-center align-items-center rounded-4">
+              <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex flex-column justify-content-center align-items-center">
+                <img class="mb-4" src="@/assets/images/service-item-front-end.png" alt="visual design">
+                <h3 class="text-primary-50">前端開發</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="mb-4 mb-md-7 fs-3 fw-semibold text-center text-primary-700">想要合作或瞭解更多？</p>
+        <div class="d-flex justify-content-center pb-7 pb-md-9">
+          <a
+            class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900"
+            href="#"
+          >
+            詳細內容與合作流程
+            <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   
