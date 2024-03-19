@@ -250,6 +250,92 @@ import AppHeader from '@/components/AppHeader.vue';
         </div>
       </div>
     </section>
+
+    <section class="container pb-7 pb-md-9">
+      <h2 class="title-deco py-7 py-md-9 mt-7 mt-md-9 text-center text-primary-700 tracking-wide fw-semibold">精選文章</h2>
+      <div class="row row-gap-5 mb-7">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="@/assets/images/article-image1.png" class="card-img-top rounded-3" alt="article-1">
+            <div class="card-body">
+              <h5 class="card-title mb-3 text-primary-700">Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI/UX 新知</span>
+                <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2024/02/10</small></p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="@/assets/images/article-image2.png" class="card-img-top rounded-3" alt="article-2">
+            <div class="card-body">
+              <h5 class="card-title mb-3 text-primary-700">給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (下)</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI/UX 新知</span>
+                <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2023/11/20</small></p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <img src="@/assets/images/article-image3.png" class="card-img-top rounded-3" alt="article-3">
+            <div class="card-body">
+              <h5 class="card-title mb-3 text-primary-700">給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (上)</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI/UX 新知</span>
+                <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2023/10/18</small></p>
+              </div>
+              <a class="stretched-link" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-md-flex justify-content-center gap-3 mb-9">
+        <span
+          class="rounded-circle bg-primary-900"
+          style="width: 12px;
+          height: 12px;"
+        >
+        </span>
+        <span
+          class="rounded-circle bg-primary-300"
+          style="width: 12px;
+          height: 12px;"
+        >
+        </span>
+        <span
+          class="rounded-circle bg-primary-300"
+          style="width: 12px;
+          height: 12px;"
+        >
+        </span>
+        <span
+          class="rounded-circle bg-primary-300"
+          style="width: 12px;
+          height: 12px;"
+        >
+        </span>
+        <span
+          class="rounded-circle bg-primary-300"
+          style="width: 12px;
+          height: 12px;"
+        >
+        </span>
+      </div>
+      <div class="d-flex justify-content-center mb-7">
+        <a
+          class="btn btn-lg d-md-none fs-6 fw-bold text-primary-50 bg-primary-900"
+          href="#"
+        >
+          更多文章
+          <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
+        </a>
+      </div>
+    </section>
   </main>
 
   
