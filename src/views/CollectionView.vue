@@ -1,3 +1,10 @@
+<script setup>
+const importedImage = (num) => {
+  const images = new URL(`../assets/images/work-image${num}.png`, import.meta.url);
+  return images.href
+};
+</script>
+
 <template>
   <main>
     <div class="bg-primary-100 pt-9 pb-7">
@@ -35,6 +42,37 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="container py-7 py-md-9 mt-7 mt-md-9">
+      <ul class="row row-gap-9 mb-8 mb-md-9 list-unstyled">
+        <li v-for="(num, index) in 6" :key="index" class="col-12 col-md-6">
+          <div class="card border-0">
+            <img :src="importedImage(num)" alt="work1" class="card-img-top rounded-4">
+            <div class="card-body">
+              <h3 class="card-title text-primary-700">星際旅行訂票平台</h3>
+              <p class="card-text mb-3 mb-md-4 text-primary-500">悠遊宇宙的夢想，從這裡開始實現</p>
+              <div class="d-flex gap-3">
+                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
+                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
+                <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <nav class="mb-7 mb-md-9" aria-label="Page navigation">
+        <ul class="pagination justify-content-center gap-3">
+          <li class="page-item">
+            <a class="page-link text-primary-50 bg-primary-800 rounded-1 border-0" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-primary-700 rounded-1 border-0" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-primary-700 rounded-1 border-0" href="#">3</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </main>
 </template>
