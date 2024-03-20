@@ -1,10 +1,4 @@
-<script setup>
-import AppHeader from '@/components/AppHeader.vue';
-import AppFooter from '@/components/AppFooter.vue';
-</script>
-
 <template>
-  <AppHeader />
   <main>
     <div class="container-fluid">
       <div class="row flex-md-row-reverse mb-7 mb-md-9">
@@ -340,6 +334,4 @@ import AppFooter from '@/components/AppFooter.vue';
       </div>
     </section>
   </main>
-
-  <AppFooter />
 </template>
