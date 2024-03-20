@@ -1,0 +1,40 @@
+<template>
+  <main>
+    <div class="bg-primary-100 pt-9 pb-7">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-3">
+            <blockquote class="position-relative py-9 mb-7 mb-md-4 fs-4 text-center text-primary-800">
+              <img class="d-md-none position-absolute start-50 top-0 translate-middle-x" src="@/assets/images/quote-left.png" alt="quote-left">
+              <img class="d-none d-md-block position-absolute start-0 top-0" src="@/assets/images/quote-left.png" alt="quote-left">
+              <p class="mt-3 mt-md-0 mb-3">讓使用者在觀賞與使用的旅程中，發現<mark class="mark p-0">設計的價值</mark></p>
+              <p>
+              而我在設計與開發的過程中，看見<mark class="mark p-0">自己的價值</mark></p>
+              <img class="d-none d-md-block position-absolute end-0 bottom-0" src="@/assets/images/quote-right.png" alt="quote-right">
+            </blockquote>
+          </div>
+        </div>
+        <div class="row row-gap-4 justify-content-center pb-7">
+          <div class="col-10 col-md-4 col-lg-3">
+            <div class="text-center">
+              <h6
+                class="d-inline-block pb-1 mb-2 lh-base fw-normal text-primary-600 border-bottom border-2 border-primary-400"
+                style="--bs-border-color: #c1c1c1;"
+              >2B經驗</h6>
+              <p class="text-primary-700">內部監控系統、庫存系統、採購系統、行銷整合系統</p>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3">
+            <div class="text-center">
+              <h6
+                class="d-inline-block pb-1 mb-2 lh-base fw-normal text-primary-600 border-bottom border-2 border-primary-400"
+                style="--bs-border-color: #c1c1c1;"
+              >2C經驗</h6>
+              <p class="text-primary-700">跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</template>
