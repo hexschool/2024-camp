@@ -12,6 +12,15 @@
   font-weight: 600;
 }
 
+.navbar-nav .nav-link.active::before {
+  --size: 8px;   /* the size on the corner */
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #919191;
+  mask: conic-gradient(at var(--size) var(--size), rgba(0, 0, 0, 0) 75%, #000 0) 0 0/calc(100% - var(--size)) calc(100% - var(--size)), linear-gradient(#000 0 0) content-box;
+}
+
 /* Text decorate */
 .mark {
   background-color: #fff;
