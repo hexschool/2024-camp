@@ -1,7 +1,7 @@
 <script setup>
 const importedImage = (num) => {
   const images = new URL(`../assets/images/work-image${num}.png`, import.meta.url);
-  return images.href
+  return images.href;
 };
 </script>
 
@@ -47,7 +47,14 @@ const importedImage = (num) => {
       <ul class="row row-gap-9 mb-8 mb-md-9 list-unstyled">
         <li v-for="(num, index) in 6" :key="index" class="col-12 col-md-6">
           <div class="card border-0">
-            <img :src="importedImage(num)" alt="work1" class="card-img-top rounded-4">
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#collectionModal"
+              class="bg-transparent border-0"
+              type="button"
+            >
+              <img :src="importedImage(num)" alt="work1" class="card-img-top rounded-4">
+            </button>
             <div class="card-body">
               <h3 class="card-title text-primary-700">星際旅行訂票平台</h3>
               <p class="card-text mb-3 mb-md-4 text-primary-500">悠遊宇宙的夢想，從這裡開始實現</p>
@@ -73,6 +80,41 @@ const importedImage = (num) => {
           </li>
         </ul>
       </nav>
+    </div>
+
+    <div class="modal" id="collectionModal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        style="--bs-modal-width: 1076px;"
+      >
+        <div class="modal-content">
+          <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="px-6 px-md-9">
+            <h3 class="modal-title mb-2 text-primary-700 text-center">星際旅行訂票平台</h3>
+            <p class="mb-4 mb-md-7 text-primary-500 text-center">悠遊宇宙的夢想，從這裡開始實現</p>
+            <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
+              <div class="col-12 col-md-5 col-lg-7 text-primary-800 text-center text-md-start">
+                <p class="mb-0">STAR TRAVEL 為 KK 公司宇宙旅行的購票網站。</p>
+                <p class="mb-0">主要從地球出發，目的地包含月球、火星、水星、木星；未來太空轉運站建置完畢，將再擴增目的地土星和金星。</p>
+              </div>
+              <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0">
+                <p class="mb-1 text-primary-600">設計原則：宇宙旅行、深色背景、強烈視覺效果</p>
+                <p class="mb-0 text-primary-600">開發方式：Bootstrap、Javascript、RWD</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body py-7 text-center bg-primary-100">
+            <img class="img-fluid mt-0 mt-md-7 mb-3 mb-md-4 rounded-4" src="@/assets/images/modal-image1.png" alt="modal-image1">
+            <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">主視覺</h4>
+            <p class="mb-9 text-primary-600">可直接設定日期、起迄星球、張數，快速查詢可購買的票券。</p>
+            <img class="img-fluid mb-3 mb-md-4 rounded-4" src="@/assets/images/modal-image2.png" alt="modal-image2">
+            <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">推薦查詢</h4>
+            <p class="mb-md-7 text-primary-600">給予最快起飛，以及最熱門的景點推薦，協助使用者進行選擇。</p>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </template>

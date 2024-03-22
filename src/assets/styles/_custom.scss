@@ -83,3 +83,15 @@
   padding-top: 100%;
   position: relative;
 }
+
+/* Collection section */
+.divider {
+  border-top: 1px solid #C1C1C1; 
+}
+
+@include media-breakpoint-up(md) {
+  .divider {
+    border-left: 1px solid #C1C1C1; 
+    border-top: 0;
+  }
+}
