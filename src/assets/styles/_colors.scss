@@ -47,8 +47,18 @@ $utilities: map-merge(
         ),
       ),
     ),
+    "border-color": map-merge(
+      map-get($utilities, "border-color"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "border-color"), "values"),
+          (
+            $primarys
+          ),
+        ),
+      ),
+    ),
   )
 );
 
-
-@import "~/bootstrap/scss/utilities/api"
+@import "~/bootstrap/scss/utilities/api";
