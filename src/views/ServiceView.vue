@@ -1,3 +1,12 @@
+<script setup>
+  const importImage = (num) => {
+    const offset = 3;
+    const image = new URL(`../assets/images/work-image${num + offset}.png`, import.meta.url);
+    return image.href;
+  }
+</script>
+
+
 <template>
   <main>
     <section class="pt-md-7 pb-7 pb-md-9">
@@ -148,5 +157,35 @@
         </div>
       </div>
     </section>
+
+    <section class="py-7 pb-md-9 bg-primary-100">
+      <div class="container">
+        <h2 class="title-deco py-7 py-md-9 text-center text-primary-700 tracking-wide fw-semibold">客戶案例</h2>
+        <ul class="row row-gap-9 mb-8 mb-md-9 list-unstyled">
+          <li v-for="(num, index) in 4" :key="index" class="col-12 col-md-6">
+            <div class="card bg-transparent border-0">
+              <button
+                data-bs-toggle="modal"
+                data-bs-target="#collectionModal"
+                class="bg-transparent border-0"
+                type="button"
+              >
+                <img :src="importImage(num)" alt="work1" class="card-img-top rounded-4">
+              </button>
+              <div class="card-body">
+                <h3 class="card-title text-primary-700">美美美早餐店 POS 機 UI Design</h3>
+                <p class="card-text mb-3 mb-md-4 text-primary-500">訂單送單一目瞭然，自動報表分析好輕鬆</p>
+                <div class="d-flex gap-3">
+                  <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI 設計</span>
+                  <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">前端開發</span>
+                  <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">Wix</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
   </main>
 </template>
