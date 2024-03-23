@@ -323,9 +323,9 @@
         >
         </span>
       </div>
-      <div class="d-flex justify-content-center mb-7">
+      <div class="d-flex d-md-none justify-content-center mb-7">
         <a
-          class="btn btn-lg d-md-none fs-6 fw-bold text-primary-50 bg-primary-900"
+          class="btn btn-lg fs-6 fw-bold text-primary-50 bg-primary-900"
           href="#"
         >
           更多文章
