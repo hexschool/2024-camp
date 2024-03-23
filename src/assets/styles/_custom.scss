@@ -100,3 +100,24 @@
 .price-list__item--shadow {
   box-shadow: 0px 4px 8px 0px #00000014;
 }
+
+/* BlogView */
+.blog__menu {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+@include media-breakpoint-up(lg) {
+  .blog__menu {
+    position: static;
+    width: auto;
+    overflow-x: auto;
+  }
+}
+
+.blog__menu--active {
+  border: 0;
+  border-bottom: 2px solid #1E1E1E;
+}
