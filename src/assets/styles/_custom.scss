@@ -12,7 +12,7 @@
   font-weight: 600;
 }
 
-.navbar-nav .nav-link.active::before {
+.navbar-nav .nav-link.active span::before {
   --size: 8px;   /* the size on the corner */
   content: "";
   position: absolute;
