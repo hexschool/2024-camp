@@ -1,10 +1,16 @@
 /* Typography */
+$bs-breadcrumb-divider-color: #919191;
+
 .font-tourney {
   font-family: "Tourney", sans-serif;
 }
 
 .tracking-wide {
   letter-spacing: 0.12em;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: $bs-breadcrumb-divider-color;
 }
 
 /* Navbar */
