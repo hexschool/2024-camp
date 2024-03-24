@@ -123,7 +123,7 @@
         <div class="row row-gap-4 gx-8 gx-md-4">
           <div class="col-12 col-lg-6 col-xxl-4">
             <div class="price-list__item--shadow d-flex align-items-center p-6 bg-primary-100 rounded-2">
-              <img class="me-2" src="@/assets/images/price-item-visual.png" alt="平面設計">
+              <img class="me-2" src="@/assets/images/price-item-visual.svg" alt="平面設計">
               <h3 class="mb-0 text-primary-600 fw-semibold">平面設計</h3>
               <hr class="flex-grow-1 mx-3 border-primary-400 opacity-100">
               <div class="fs-2 text-primary-800 fw-bold">
@@ -134,7 +134,7 @@
           </div>
           <div class="col-12 col-lg-6 col-xxl-4">
             <div class="price-list__item--shadow d-flex align-items-center p-6 bg-primary-100 rounded-2">
-              <img class="me-2" src="@/assets/images/price-item-ui.png" alt="UI 設計">
+              <img class="me-2" src="@/assets/images/price-item-ui.svg" alt="UI 設計">
               <h3 class="mb-0 text-primary-600 fw-semibold">UI 設計</h3>
               <hr class="flex-grow-1 mx-3 border-primary-400 opacity-100">
               <div class="fs-2 text-primary-800 fw-bold">
@@ -145,7 +145,7 @@
           </div>
           <div class="col-12 col-lg-6 col-xxl-4">
             <div class="price-list__item--shadow d-flex align-items-center p-6 mb-7 mb-md-9 bg-primary-100 rounded-2">
-              <img class="me-2" src="@/assets/images/price-item-front-end.png" alt="前端開發">
+              <img class="me-2" src="@/assets/images/price-item-front-end.svg" alt="前端開發">
               <h3 class="mb-0 text-primary-600 fw-semibold">前端開發</h3>
               <hr class="flex-grow-1 mx-3 border-primary-400 opacity-100">
               <div class="fs-2 text-primary-800 fw-bold">
