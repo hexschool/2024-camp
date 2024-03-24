@@ -6,7 +6,7 @@
     <nav class="navbar navbar-expand-md">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="@/assets/images/logo.png" alt="logo">
+          <img src="@/assets/images/logo.svg" alt="logo">
         </a>
         <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span class="material-symbols-outlined fs-1 text-primary-900">menu</span>

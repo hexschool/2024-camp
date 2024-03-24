@@ -10,7 +10,7 @@
         <div class="col-12 col-md-4 col-lg-3">
           <img
             class="mb-4"
-            src="@/assets/images/logo.png" alt="logo"
+            src="@/assets/images/logo.svg" alt="logo"
           >
           <p class="mb-4 fs-5 text-primary-700">歡迎填寫表單，或直接與我聯絡！</p>
           <a
