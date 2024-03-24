@@ -8,8 +8,8 @@
 <template>
   <main>
     <section class="container pb-7 pb-md-9">
-      <div class="py-7 py-md-9 mt-md-9">
-        <h2 class="title-deco mb-3 mb-md-4 text-center text-primary-700 tracking-wide fw-semibold">部落格</h2>
+      <div class="py-7 py-lg-9 mt-lg-9">
+        <h2 class="title-deco mb-3 mb-lg-4 text-center text-primary-700 tracking-wide fw-semibold">部落格</h2>
         <p class="mb-0 text-center text-primary-500">不定期分享技術文章</p>
       </div>
       <div class="row flex-row-reverse">
