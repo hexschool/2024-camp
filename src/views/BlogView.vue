@@ -14,7 +14,7 @@
       </div>
       <div class="row flex-row-reverse">
         <div class="col-12 col-lg-3">
-          <aside class="blog__menu h-100 px-3 py-4 p-lg-7 bg-primary-100">
+          <aside class="blog__menu px-3 py-4 p-lg-7 bg-primary-100">
             <ul class="d-flex flex-lg-column justify-content-md-center justify-content-lg-start gap-7 mb-0 p-xxl-7 list-unstyled">
               <li class="flex-shrink-0">
                 <button class="blog__menu--active pb-1 text-primary-800 bg-transparent" type="button">全部文章</button>
