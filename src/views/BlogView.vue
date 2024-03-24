@@ -59,7 +59,7 @@
                   <h5 class="card-title mb-3 text-primary-700">Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)</h5>
                   <p class="mb-0 text-primary-700">Vision Pro 終於在 2024 年 2 月正式開賣，距離正式發表的 2023 年 6 月，已有半年時間。</p>
                   <p class="d-none d-lg-block mb-0 text-primary-700">這半年間，各種質疑聲不斷冒出，例如「太貴了，這是做給投資家看的產品，不能真的大量生產」、「續航力明顯不足，電池太重，不利於隨身攜帶使用」、「隔絕現實世界，會更加深世代或人際關係的隔閡」。</p>
-                  <a class="stretched-link" href="#"></a>
+                  <a class="stretched-link" href="/post"></a>
                 </div>
               </div>
             </div>
