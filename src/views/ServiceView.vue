@@ -118,9 +118,9 @@
     </section>
 
     <section class="py-7 pb-md-9">
-      <div class="container gx-8 gx-md-4">
+      <div class="container px-4">
         <h2 class="title-deco py-7 py-md-9 text-center text-primary-700 tracking-wide fw-semibold">價格表</h2>
-        <div class="row row-gap-4">
+        <div class="row row-gap-4 gx-8 gx-md-4">
           <div class="col-12 col-lg-6 col-xxl-4">
             <div class="price-list__item--shadow d-flex align-items-center p-6 bg-primary-100 rounded-2">
               <img class="me-2" src="@/assets/images/price-item-visual.png" alt="平面設計">
