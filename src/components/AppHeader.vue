@@ -14,27 +14,27 @@
         <div class="collapse navbar-collapse offset-md-2 offset-lg-3" id="navbarToggler">
           <ul class="navbar-nav me-auto mb-2 mb-md-0 text-center">
             <li class="nav-item mb-4 mb-md-0 me-md-3 me-lg-7">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="/">
                 <span class="position-relative px-2 py-1">首頁</span>
               </a>
             </li>
             <li class="nav-item mb-4 mb-md-0 me-md-3 me-lg-7">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/collection">
                 <span class="position-relative px-2 py-1">作品集</span>
               </a>
             </li>
             <li class="nav-item mb-4 mb-md-0 me-md-3 me-lg-7">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/service">
                 <span class="position-relative px-2 py-1">服務項目</span>
               </a>
             </li>
             <li class="nav-item mb-4 mb-md-0 me-md-3 me-lg-7">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/blog">
                 <span class="position-relative px-2 py-1">部落格</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 <span class="position-relative px-2 py-1">聯絡我</span>
               </a>
             </li>
