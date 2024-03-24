@@ -34,7 +34,7 @@
             </ul>
           </aside>
         </div>
-        <ul class="d-flex flex-column row-gap-7 row-gap-lg-9 col-12 col-lg-9 mt-9 mt-lg-0 mb-0 pt-9 pt-lg-0">
+        <ul class="d-flex flex-column row-gap-7 row-gap-lg-9 gx-9 gx-lg-4 col-12 col-lg-9 mt-9 mt-lg-0 mb-0 pt-9 pt-lg-0">
           <li
             v-for="(num, index) in 6"
             :key="index"
