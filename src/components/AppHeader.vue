@@ -1,5 +1,8 @@
 <template>
-  <header class="py-md-4">
+  <header
+    class="py-md-4 border-bottom border-primary-200"
+    style="margin-bottom: 1px;"
+  >
     <nav class="navbar navbar-expand-md">
       <div class="container">
         <a class="navbar-brand" href="#">
