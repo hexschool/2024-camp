@@ -188,9 +188,9 @@
     </section>
 
     <section class="py-7 pb-md-9">
-      <div class="container gx-7 gx-md-4 mb-7 mb-md-9">
+      <div class="container px-4 mb-7 mb-md-9">
         <h2 class="title-deco py-7 py-md-9 text-center text-primary-700 tracking-wide fw-semibold">常見問題</h2>
-        <div className="row row-gap-4 justify-content-xl-center">
+        <div className="row row-gap-4 gx-7 gx-md-4 justify-content-xl-center">
           <div className="col-12 col-md-6 col-xl-5">
             <div class="p-4 h-100 border border-1 border-primary-300 rounded-2">
               <h4 className="mb-3 text-primary-700">時程很趕的話可以加快作業嗎？</h4>
