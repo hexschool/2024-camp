@@ -199,7 +199,7 @@
       background-repeat: no-repeat;
       background-size: cover;"
     >
-      <div class="container">
+      <div class="container px-6 px-md-4">
         <h2 class="title-deco py-7 py-md-9 text-center text-primary-700 tracking-wide fw-semibold">服務項目</h2>
         <div class="row row-gap-4 mb-7 mb-md-9">
           <div class="col-12 col-md-6 col-lg-3">
