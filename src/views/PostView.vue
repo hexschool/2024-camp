@@ -76,9 +76,9 @@
       </div>
     </section>
 
-    <section class="container px-4 pt-7 pb-7 pb-lg-9 mt-lg-7 mb-7 mb-lg-9 border-top border-primary-400">
+    <section class="container px-6 px-lg-0 pt-7 pb-7 pb-lg-9 mt-lg-7 mb-7 mb-lg-9 border-top border-primary-400">
       <h3 class="mb-7 text-center text-lg-start text-primary-700">相關文章</h3>
-      <div class="row row-gap-5 gx-9 gx-lg-4">
+      <div class="row row-gap-5">
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card border-0">
             <img src="@/assets/images/article-image1.png" class="card-img-top rounded-3" alt="article-1">
