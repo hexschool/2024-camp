@@ -60,3 +60,20 @@ $utilities: map-merge(
     ),
   )
 );
+
+// link color classes
+@each $color, $value in $primarys {
+  .link-#{$color} {
+    color: $value if($enable-important-utilities, !important, null);
+    text-decoration-color: RGBA($value, var(--#{$prefix}link-underline-opacity, 1)) if($enable-important-utilities, !important, null);
+
+    @if $link-shade-percentage != 0 {
+      &:hover,
+      &:focus {
+        $hover-color: if(color-contrast($value) == $color-contrast-light, shade-color($value, $link-shade-percentage), tint-color($value, $link-shade-percentage));
+        color: RGBA(#{to-rgb($hover-color)}, var(--#{$prefix}link-opacity, 1)) if($enable-important-utilities, !important, null);
+        text-decoration-color: RGBA(to-rgb($hover-color), var(--#{$prefix}link-underline-opacity, 1)) if($enable-important-utilities, !important, null);
+      }
+    }
+  }
+}
