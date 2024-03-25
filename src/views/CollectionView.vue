@@ -134,7 +134,7 @@ const importImage = (num) => {
 
     <div class="modal" id="collectionModal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
       <div
-        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        class="modal-dialog modal-dialog-centered"
         style="--bs-modal-width: 1076px;"
       >
         <div class="modal-content">
