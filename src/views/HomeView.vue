@@ -44,7 +44,7 @@
             <div class="col-12 col-md-6 col-xl-5 d-none d-md-flex flex-md-column justify-content-center">
               <div class="px-7 py-9 bg-white-overlay rounded-5">
                 <h3 class="mb-2 text-primary-50">星際旅行訂票平台</h3>
-                <p class="mb-3 fs-6 text-primary-50">悠遊宇宙的夢想，從這裡開始實現</p>
+                <p class="mb-4 fs-6 text-primary-50">悠遊宇宙的夢想，從這裡開始實現</p>
                 <div class="pb-7 mb-7 border-bottom border-white">
                   <span class="badge mb-2 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
                   <span class="badge mb-2 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
@@ -99,7 +99,7 @@
             >
               <div class="px-7 py-9 bg-white-overlay rounded-5">
                 <h3 class="mb-2 text-primary-50">理財APP</h3>
-                <p class="mb-3 fs-6 text-primary-50">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
+                <p class="mb-4 fs-6 text-primary-50">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
                 <div class="pb-7 mb-7 border-bottom border-white">
                   <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">APP設計</span>
                   <span class="badge me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">iOS</span>
@@ -155,7 +155,7 @@
             <div class="col-12 col-md-6 col-xl-5 d-none d-md-flex flex-md-column justify-content-center">
               <div class="px-7 py-9 bg-white-overlay rounded-5">
                 <h3 class="mb-2 text-primary-50">醫美診所官網</h3>
-                <p class="mb-3 fs-6 text-primary-50">永保青春的秘密，從粹究開始</p>
+                <p class="mb-4 fs-6 text-primary-50">永保青春的秘密，從粹究開始</p>
                 <div class="pb-7 mb-7 border-bottom border-white">
                   <span class="badge mb-2 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">網頁設計</span>
                   <span class="badge mb-2 me-2 fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">響應式設計</span>
