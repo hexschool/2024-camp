@@ -93,13 +93,17 @@ const importedImage = (num) => {
             <h3 class="modal-title mb-2 text-primary-700 text-center">星際旅行訂票平台</h3>
             <p class="mb-4 mb-md-7 text-primary-500 text-center">悠遊宇宙的夢想，從這裡開始實現</p>
             <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-              <div class="col-12 col-md-5 col-lg-7 text-primary-800 text-center text-md-start">
+              <div class="col-12 col-md-5 col-lg-7 text-primary-800">
                 <p class="mb-0">STAR TRAVEL 為 KK 公司宇宙旅行的購票網站。</p>
                 <p class="mb-0">主要從地球出發，目的地包含月球、火星、水星、木星；未來太空轉運站建置完畢，將再擴增目的地土星和金星。</p>
               </div>
-              <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0">
-                <p class="mb-1 text-primary-600">設計原則：宇宙旅行、深色背景、強烈視覺效果</p>
-                <p class="mb-0 text-primary-600">開發方式：Bootstrap、Javascript、RWD</p>
+              <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
+                <p class="d-md-none mb-1">設計原則</p>
+                <p class="d-md-none mb-3">宇宙旅行、深色背景、強烈視覺效果</p>
+                <p class="d-md-none mb-1">開發方式</p>
+                <p class="d-md-none mb-0">Bootstrap、Javascript、RWD</p>
+                <p class="d-none d-md-block mb-1">設計原則：宇宙旅行、深色背景、強烈視覺效果</p>
+                <p class="d-none d-md-block mb-0">開發方式：Bootstrap、Javascript、RWD</p>
               </div>
             </div>
           </div>
