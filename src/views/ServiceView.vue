@@ -1,9 +1,35 @@
 <script setup>
-  const importImage = (num) => {
-    const offset = 3;
-    const image = new URL(`../assets/images/work-image${num + offset}.png`, import.meta.url);
-    return image.href;
-  }
+const collections = [
+  {
+    id: 4,
+    name: '美美美早餐店 POS 機 UI Design',
+    description: '訂單送單一目瞭然，自動報表分析好輕鬆',
+    tags: ['UI 設計', '前端開發', 'Wix']
+  },
+  {
+    id: 5,
+    name: '電影院訂票系統',
+    description: '三步驟完成訂票，電腦手機都支援',
+    tags: ['前端開發', '後端支援', 'Vue']
+  },
+  {
+    id: 6,
+    name: '巧克巧克形象官網設計',
+    description: '三步驟完成訂票，電腦手機都支援',
+    tags: ['UI設計', '設計系統', '網路電商']
+  },
+  {
+    id: 7,
+    name: '2023 餉茶坊飲料旗艦店活動官網設計',
+    description: '主打水果主題，冰鎮夏天暑氣',
+    tags: ['網頁設計', '切版服務', 'Javascript']
+  },
+];
+
+const importImage = (num) => {
+  const image = new URL(`../assets/images/work-image${num}.png`, import.meta.url);
+  return image.href;
+}
 </script>
 
 
@@ -162,7 +188,7 @@
       <div class="container">
         <h2 class="title-deco py-7 py-md-9 text-center text-primary-700 tracking-wide fw-semibold">客戶案例</h2>
         <ul class="row row-gap-7 mb-6 mb-md-7 list-unstyled">
-          <li v-for="(num, index) in 4" :key="index" class="col-12 col-md-6 mb-2 mb-md-7">
+          <li v-for="collection in collections" :key="collection.id" class="col-12 col-md-6 mb-2 mb-md-7">
             <div class="card bg-transparent border-0">
               <button
                 data-bs-toggle="modal"
@@ -170,15 +196,27 @@
                 class="bg-transparent border-0"
                 type="button"
               >
-                <img :src="importImage(num)" alt="work1" class="card-img-top rounded-4">
+                <img
+                  :src="importImage(collection.id)"
+                  class="card-img-top rounded-4"
+                  :alt="`work-${collection.id}`"
+                >
               </button>
               <div class="card-body pb-0">
-                <h3 class="card-title text-primary-700">美美美早餐店 POS 機 UI Design</h3>
-                <p class="card-text mb-3 mb-md-4 text-primary-500">訂單送單一目瞭然，自動報表分析好輕鬆</p>
+                <h3 class="card-title text-primary-700">
+                  {{ collection.name }}
+                </h3>
+                <p class="card-text mb-3 mb-md-4 text-primary-500">
+                  {{ collection.description }}
+                </p>
                 <div class="d-flex gap-3">
-                  <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI 設計</span>
-                  <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">前端開發</span>
-                  <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">Wix</span>
+                  <span
+                    v-for="(tag, index) in collection.tags"
+                    :key="`${tag}-${index}`"
+                    class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4"
+                  >
+                    {{ tag }}
+                  </span>
                 </div>
               </div>
             </div>
