@@ -52,11 +52,11 @@
                 </div>
                 <div class="d-flex justify-content-center">
                   <a
-                    class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900"
+                    class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900 icon-link icon-link-hover link-primary-500"
                     href="#"
                   >
                     完整介紹
-                    <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
+                    <span class="bi material-symbols-outlined align-text-bottom">arrow_forward</span>
                   </a>
                 </div>
               </div>
@@ -107,11 +107,11 @@
                 </div>
                 <div class="d-flex justify-content-center">
                   <a
-                    class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900"
+                    class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900 icon-link icon-link-hover link-primary-500"
                     href="#"
                   >
                     完整介紹
-                    <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
+                    <span class="bi material-symbols-outlined align-text-bottom">arrow_forward</span>
                   </a>
                 </div>
               </div>
@@ -163,11 +163,11 @@
                 </div>
                 <div class="d-flex justify-content-center">
                   <a
-                    class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900"
+                    class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900 icon-link icon-link-hover link-primary-500"
                     href="#"
                   >
                     完整介紹
-                    <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
+                    <span class="bi material-symbols-outlined align-text-bottom">arrow_forward</span>
                   </a>
                 </div>
               </div>
@@ -238,11 +238,11 @@
         <p class="mb-4 mb-md-7 fs-3 fw-semibold text-center text-primary-700">想要合作或瞭解更多？</p>
         <div class="d-flex justify-content-center pb-7 pb-md-9">
           <a
-            class="d-none d-md-block btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900"
+            class="d-none d-md-block btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900 icon-link icon-link-hover link-primary-500"
             href="#"
           >
             詳細內容與合作流程
-            <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
+            <span class="bi material-symbols-outlined align-text-bottom">arrow_forward</span>
           </a>
           <a
             class="d-md-none btn px-3 py-2 fw-bold text-primary-50 bg-primary-900"
