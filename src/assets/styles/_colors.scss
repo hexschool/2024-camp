@@ -61,4 +61,4 @@ $utilities: map-merge(
   )
 );
 
-// @import "~/bootstrap/scss/utilities/api";  在 all.scss 有引入 `@import "~/bootstrap/scss/bootstrap";`，所以這裡不需引入
+@import "~/bootstrap/scss/utilities/api";
