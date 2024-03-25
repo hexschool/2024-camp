@@ -3,7 +3,7 @@
     class="py-md-4 border-bottom border-primary-200"
     style="margin-bottom: 1px;"
   >
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md py-md-1">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img src="@/assets/images/logo.svg" alt="logo">
