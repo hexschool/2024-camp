@@ -158,11 +158,11 @@
       </div>
     </section>
 
-    <section class="py-7 pb-md-9 bg-primary-100">
+    <section class="py-7 bg-primary-100">
       <div class="container">
         <h2 class="title-deco py-7 py-md-9 text-center text-primary-700 tracking-wide fw-semibold">客戶案例</h2>
-        <ul class="row row-gap-9 mb-8 mb-md-9 list-unstyled">
-          <li v-for="(num, index) in 4" :key="index" class="col-12 col-md-6">
+        <ul class="row row-gap-7 mb-6 mb-md-7 list-unstyled">
+          <li v-for="(num, index) in 4" :key="index" class="col-12 col-md-6 mb-2 mb-md-7">
             <div class="card bg-transparent border-0">
               <button
                 data-bs-toggle="modal"
@@ -172,7 +172,7 @@
               >
                 <img :src="importImage(num)" alt="work1" class="card-img-top rounded-4">
               </button>
-              <div class="card-body">
+              <div class="card-body pb-0">
                 <h3 class="card-title text-primary-700">美美美早餐店 POS 機 UI Design</h3>
                 <p class="card-text mb-3 mb-md-4 text-primary-500">訂單送單一目瞭然，自動報表分析好輕鬆</p>
                 <div class="d-flex gap-3">
