@@ -44,11 +44,3 @@
     </nav>
   </header>
 </template>
-
-<script setup>
-  import '/node_modules/bootstrap/js/index.esm.js';
-</script>
-
-<style lang="scss" scoped>
-
-</style>
