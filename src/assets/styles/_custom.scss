@@ -103,6 +103,16 @@ $bs-breadcrumb-divider-color: #919191;
   }
 }
 
+.border-half::after {
+  content: '';
+  border-bottom: 2px solid #c1c1c1;
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  left: 0;
+  transform: translate(50%);
+}
+
 /* Price list section */
 .price-list__item--shadow {
   box-shadow: 0px 4px 8px 0px #00000014;

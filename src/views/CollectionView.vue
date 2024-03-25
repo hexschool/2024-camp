@@ -25,8 +25,7 @@ const importedImage = (num) => {
           <div class="col-10 col-md-4 col-lg-3">
             <div class="text-center">
               <h6
-                class="d-inline-block pb-1 mb-2 lh-base fw-normal text-primary-600 border-bottom border-2 border-primary-400"
-                style="--bs-border-color: #c1c1c1;"
+                class="border-half position-relative d-inline-block pb-1 mb-2 lh-base fw-normal text-primary-600"
               >2B經驗</h6>
               <p class="text-primary-700">內部監控系統、庫存系統、採購系統、行銷整合系統</p>
             </div>
@@ -34,8 +33,7 @@ const importedImage = (num) => {
           <div class="col-10 col-md-4 col-lg-3">
             <div class="text-center">
               <h6
-                class="d-inline-block pb-1 mb-2 lh-base fw-normal text-primary-600 border-bottom border-2 border-primary-400"
-                style="--bs-border-color: #c1c1c1;"
+                class="border-half position-relative d-inline-block pb-1 mb-2 lh-base fw-normal text-primary-600"
               >2C經驗</h6>
               <p class="text-primary-700">跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
             </div>
