@@ -14,19 +14,19 @@
           >
           <p class="mb-4 fs-5 text-primary-700">歡迎填寫表單，或直接與我聯絡！</p>
           <a
-            class="fs-5 text-primary-500 text-decoration-none" href="mailto:service@hexschool.com">service@hexschool.com</a>
+            class="link-primary-500 fs-5 text-decoration-none" href="mailto:service@hexschool.com">service@hexschool.com</a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <a class="btn btn-lg w-100 px-4 mb-4 lh-base text-start fw-bold text-primary-50 bg-primary-900" href="#">
             <img src="@/assets/images/list.svg" alt="list">
             填寫表單
           </a>
-          <a class="btn btn-lg w-100 px-4 mb-4 lh-base text-start text-primary-700 bg-primary-50" href="#">
-            <i class="bi bi-instagram align-middle me-2 fs-1"></i>
+          <a class="btn btn-lg w-100 px-4 mb-4 lh-base text-start icon-hover link-primary-700 bg-primary-50" href="#">
+            <i class="bi bi-instagram align-middle px-2 fs-1"></i>
             hexschool_demo
           </a>
-          <a class="btn btn-lg w-100 px-4 lh-base text-start text-primary-700 bg-primary-50" href="#">
-            <i class="bi bi-facebook align-middle me-2 fs-1"></i>
+          <a class="btn btn-lg w-100 px-4 lh-base text-start icon-hover link-primary-700 bg-primary-50" href="#">
+            <i class="bi bi-facebook align-middle px-2 fs-1"></i>
             hexschoolTW
           </a>
         </div>
