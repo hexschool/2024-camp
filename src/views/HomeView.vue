@@ -15,13 +15,13 @@
             <p class="text-center text-md-start text-primary-600 fs-5">技術雙修並行，熱衷於優化使用者的網頁體驗</p>
             <p class="text-center text-md-start text-primary-400 mb-9">WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN</p>
             <div class="d-flex gap-3">
-              <a class="px-2 fs-1" href="#">
+              <a class="icon-link link-primary-600 px-2 fs-1" href="#">
                 <i class="bi bi-instagram"></i>
               </a>
-              <a class="px-2 fs-1" href="#">
+              <a class="icon-link link-primary-600 px-2 fs-1" href="#">
                 <i class="bi bi-facebook"></i>
               </a>
-              <a class="px-2 fs-1" href="#">
+              <a class="icon-link link-primary-600 px-2 fs-1" href="#">
                 <i class="bi bi-youtube"></i>
               </a>
             </div>
