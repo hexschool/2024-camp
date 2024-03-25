@@ -14,15 +14,15 @@
             <p class="text-center text-md-start text-primary-600 fs-5 mb-0">具有 10 年經驗的<mark class="mark text-primary-600">資深 UI 設計師</mark>兼<mark class="mark text-primary-600">前端工程師</mark></p>
             <p class="text-center text-md-start text-primary-600 fs-5">技術雙修並行，熱衷於優化使用者的網頁體驗</p>
             <p class="text-center text-md-start text-primary-400 mb-9">WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN</p>
-            <div>
-              <a class="px-2" href="#">
-                <img src="@/assets/images/instagram.svg" alt="instagram">
+            <div class="d-flex gap-3">
+              <a class="px-2 fs-1" href="#">
+                <i class="bi bi-instagram"></i>
               </a>
-              <a class="px-2" href="#">
-                <img src="@/assets/images/facebook.svg" alt="facebook">
+              <a class="px-2 fs-1" href="#">
+                <i class="bi bi-facebook"></i>
               </a>
-              <a class="px-2" href="#">
-                <img src="@/assets/images/youtube.svg" alt="youtube">
+              <a class="px-2 fs-1" href="#">
+                <i class="bi bi-youtube"></i>
               </a>
             </div>
           </div>

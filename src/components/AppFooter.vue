@@ -21,12 +21,12 @@
             <img src="@/assets/images/list.svg" alt="list">
             填寫表單
           </a>
-          <a class="btn btn-lg w-100 px-4 mb-4 lh-base text-start fw-bold text-primary-700 bg-primary-50" href="#">
-            <img src="@/assets/images/instagram.svg" alt="instagram">
+          <a class="btn btn-lg w-100 px-4 mb-4 lh-base text-start text-primary-700 bg-primary-50" href="#">
+            <i class="bi bi-instagram align-middle me-2 fs-1"></i>
             hexschool_demo
           </a>
-          <a class="btn btn-lg w-100 px-4 lh-base text-start fw-bold text-primary-700 bg-primary-50" href="#">
-            <img src="@/assets/images/facebook.svg" alt="facebook">
+          <a class="btn btn-lg w-100 px-4 lh-base text-start text-primary-700 bg-primary-50" href="#">
+            <i class="bi bi-facebook align-middle me-2 fs-1"></i>
             hexschoolTW
           </a>
         </div>
