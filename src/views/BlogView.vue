@@ -57,24 +57,24 @@ const importImage = (num) => {
         <h2 class="title-deco mb-3 mb-lg-4 text-center text-primary-700 tracking-wide fw-semibold">部落格</h2>
         <p class="mb-0 text-center text-primary-500">不定期分享技術文章</p>
       </div>
-      <div class="row flex-row-reverse">
+      <div class="row flex-row-reverse mb-lg-9">
         <div class="col-12 col-lg-3">
           <aside class="blog__menu px-3 py-4 p-lg-7 bg-primary-100">
-            <ul class="d-flex flex-lg-column justify-content-md-center justify-content-lg-start gap-7 mb-0 p-xxl-7 list-unstyled">
+            <ul class="d-flex flex-lg-column justify-content-md-center justify-content-lg-start gap-6 mb-0 p-xxl-7 list-unstyled">
               <li class="flex-shrink-0">
-                <button class="blog__menu--active pb-1 text-primary-800 bg-transparent" type="button">全部文章</button>
+                <button class="blog__menu--active px-0 pb-1 text-primary-800 link-primary-500 bg-transparent" type="button">全部文章</button>
               </li>
               <li class="flex-shrink-0">
-                <button class="pb-1 text-primary-800 bg-transparent border-0" type="button">UI/UX 新知</button>
+                <button class="px-0 pb-1 text-primary-800 link-primary-500 bg-transparent border-0" type="button">UI/UX 新知</button>
               </li>
               <li class="flex-shrink-0">
-                <button class="pb-1 text-primary-800 bg-transparent border-0" type="button">數位產品設計</button>
+                <button class="px-0 pb-1 text-primary-800 link-primary-500 bg-transparent border-0" type="button">數位產品設計</button>
               </li>
               <li class="flex-shrink-0">
-                <button class="pb-1 text-primary-800 bg-transparent border-0" type="button">平面設計</button>
+                <button class="px-0 pb-1 text-primary-800 link-primary-500 bg-transparent border-0" type="button">平面設計</button>
               </li>
               <li class="flex-shrink-0">
-                <button class="pb-1 text-primary-800 bg-transparent border-0" type="button">前端開發</button>
+                <button class="px-0 pb-1 text-primary-800 link-primary-500 bg-transparent border-0" type="button">前端開發</button>
               </li>
             </ul>
           </aside>
