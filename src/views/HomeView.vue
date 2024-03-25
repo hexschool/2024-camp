@@ -53,7 +53,7 @@
                 <div class="d-flex justify-content-center">
                   <a
                     class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900 icon-link icon-link-hover link-primary-500"
-                    href="#"
+                    href="/collection"
                   >
                     完整介紹
                     <span class="bi material-symbols-outlined align-text-bottom">arrow_forward</span>
@@ -74,7 +74,7 @@
         </div>
         <a
           class="btn btn-sm px-3 py-2 fs-6 fw-bold text-primary-50 bg-primary-900"
-          href="#"
+          href="/collection"
         >
           完整介紹
           <span class="material-symbols-outlined align-top">arrow_forward</span>
@@ -108,7 +108,7 @@
                 <div class="d-flex justify-content-center">
                   <a
                     class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900 icon-link icon-link-hover link-primary-500"
-                    href="#"
+                    href="/collection"
                   >
                     完整介紹
                     <span class="bi material-symbols-outlined align-text-bottom">arrow_forward</span>
@@ -132,7 +132,7 @@
         </div>
         <a
           class="btn btn-sm px-3 py-2 fs-6 fw-bold text-primary-50 bg-primary-900"
-          href="#"
+          href="/collection"
         >
           完整介紹
           <span class="material-symbols-outlined align-top">arrow_forward</span>
@@ -164,7 +164,7 @@
                 <div class="d-flex justify-content-center">
                   <a
                     class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900 icon-link icon-link-hover link-primary-500"
-                    href="#"
+                    href="/collection"
                   >
                     完整介紹
                     <span class="bi material-symbols-outlined align-text-bottom">arrow_forward</span>
@@ -185,7 +185,7 @@
         </div>
         <a
           class="btn btn-sm px-3 py-2 fs-6 fw-bold text-primary-50 bg-primary-900"
-          href="#"
+          href="/collection"
         >
           完整介紹
           <span class="material-symbols-outlined align-top">arrow_forward</span>
@@ -239,14 +239,14 @@
         <div class="d-flex justify-content-center pb-7 pb-md-9">
           <a
             class="d-none d-md-block btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-900 icon-link icon-link-hover link-primary-500"
-            href="#"
+            href="/service"
           >
             詳細內容與合作流程
             <span class="bi material-symbols-outlined align-text-bottom">arrow_forward</span>
           </a>
           <a
             class="d-md-none btn px-3 py-2 fw-bold text-primary-50 bg-primary-900"
-            href="#"
+            href="/service"
           >
             詳細內容與合作流程
             <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
@@ -267,7 +267,7 @@
                 <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI/UX 新知</span>
                 <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2024/02/10</small></p>
               </div>
-              <a class="stretched-link" href="#"></a>
+              <a class="stretched-link" href="/post"></a>
             </div>
           </div>
         </div>
@@ -280,7 +280,7 @@
                 <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI/UX 新知</span>
                 <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2023/11/20</small></p>
               </div>
-              <a class="stretched-link" href="#"></a>
+              <a class="stretched-link" href="/post"></a>
             </div>
           </div>
         </div>
@@ -293,7 +293,7 @@
                 <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI/UX 新知</span>
                 <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2023/10/18</small></p>
               </div>
-              <a class="stretched-link" href="#"></a>
+              <a class="stretched-link" href="/post"></a>
             </div>
           </div>
         </div>
@@ -333,7 +333,7 @@
       <div class="d-flex d-md-none justify-content-center mb-7">
         <a
           class="btn btn-lg fs-6 fw-bold text-primary-50 bg-primary-900"
-          href="#"
+          href="/blog"
         >
           更多文章
           <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
