@@ -108,7 +108,7 @@ const importImage = (num) => {
                   <h5 class="card-title mb-3 text-primary-700">
                     {{ post.title }}
                   </h5>
-                  <p class="mb-0 text-primary-700">
+                  <p class="cutoff-text mb-0 text-primary-700">
                     {{ post.content }}
                   </p>
                   <a class="stretched-link" href="/post"></a>
