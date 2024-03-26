@@ -128,7 +128,7 @@
   position: absolute;
   left: 0;
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 @include media-breakpoint-up(lg) {
@@ -136,7 +136,6 @@
     position: static;
     width: auto;
     height: 100%;
-    overflow-x: auto;
   }
 }
 
