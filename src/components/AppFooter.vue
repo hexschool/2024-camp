@@ -24,11 +24,11 @@
             </svg>
             填寫表單
           </a>
-          <a class="btn btn-lg w-100 px-4 mb-4 lh-base text-start link-primary-700 bg-primary-50" href="#">
+          <a class="btn btn-lg w-100 px-4 mb-4 lh-base text-start link-primary-500 text-primary-700 bg-primary-50" href="#">
             <i class="bi bi-instagram align-middle px-2 fs-1"></i>
             hexschool_demo
           </a>
-          <a class="btn btn-lg w-100 px-4 lh-base text-start link-primary-700 bg-primary-50" href="#">
+          <a class="btn btn-lg w-100 px-4 lh-base text-start link-primary-500 text-primary-700 bg-primary-50" href="#">
             <i class="bi bi-facebook align-middle px-2 fs-1"></i>
             hexschoolTW
           </a>
