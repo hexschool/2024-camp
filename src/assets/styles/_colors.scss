@@ -9,7 +9,7 @@ $primary-700: #3B3B3B !default;
 $primary-800: #1E1E1E !default;
 $primary-900: #000 !default;
 
-$primarys: (
+$primary-colors: (
   "primary-50": $primary-50,
   "primary-100": $primary-100,
   "primary-200": $primary-200,
@@ -31,7 +31,7 @@ $utilities: map-merge(
         values: map-merge(
           map-get(map-get($utilities, "color"), "values"),
           (
-            $primarys
+            $primary-colors
           ),
         ),
       ),
@@ -42,7 +42,7 @@ $utilities: map-merge(
         values: map-merge(
           map-get(map-get($utilities, "background-color"), "values"),
           (
-            $primarys
+            $primary-colors
           ),
         ),
       ),
@@ -53,7 +53,7 @@ $utilities: map-merge(
         values: map-merge(
           map-get(map-get($utilities, "border-color"), "values"),
           (
-            $primarys
+            $primary-colors
           ),
         ),
       ),
@@ -62,7 +62,7 @@ $utilities: map-merge(
 );
 
 // link color classes
-@each $color, $value in $primarys {
+@each $color, $value in $primary-colors {
   .link-#{$color} {
     color: $value if($enable-important-utilities, !important, null);
     text-decoration-color: RGBA($value, var(--#{$prefix}link-underline-opacity, 1)) if($enable-important-utilities, !important, null);
