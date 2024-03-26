@@ -62,19 +62,19 @@ const importImage = (num) => {
           <aside class="blog__menu px-3 py-4 p-lg-7 bg-primary-100">
             <ul class="d-flex flex-lg-column justify-content-md-center justify-content-lg-start gap-6 mb-0 p-xxl-7 list-unstyled">
               <li class="flex-shrink-0">
-                <button class="blog__menu--active px-0 pb-1 text-primary-800 link-primary-500 bg-transparent" type="button">全部文章</button>
+                <button class="blog__menu--active px-0 pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent" type="button">全部文章</button>
               </li>
               <li class="flex-shrink-0">
-                <button class="px-0 pb-1 text-primary-800 link-primary-500 bg-transparent border-0" type="button">UI/UX 新知</button>
+                <button class="px-0 pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent border-0" type="button">UI/UX 新知</button>
               </li>
               <li class="flex-shrink-0">
-                <button class="px-0 pb-1 text-primary-800 link-primary-500 bg-transparent border-0" type="button">數位產品設計</button>
+                <button class="px-0 pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent border-0" type="button">數位產品設計</button>
               </li>
               <li class="flex-shrink-0">
-                <button class="px-0 pb-1 text-primary-800 link-primary-500 bg-transparent border-0" type="button">平面設計</button>
+                <button class="px-0 pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent border-0" type="button">平面設計</button>
               </li>
               <li class="flex-shrink-0">
-                <button class="px-0 pb-1 text-primary-800 link-primary-500 bg-transparent border-0" type="button">前端開發</button>
+                <button class="px-0 pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent border-0" type="button">前端開發</button>
               </li>
             </ul>
           </aside>

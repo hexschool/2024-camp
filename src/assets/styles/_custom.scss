@@ -143,6 +143,10 @@
 .blog__menu--active {
   border: 0;
   border-bottom: 2px solid #1E1E1E;
+  color: $primary-800 !important;
+}
+.blog__menu--active:hover {
+  border-bottom: 2px solid currentColor;
 }
 
 .cutoff-text {
