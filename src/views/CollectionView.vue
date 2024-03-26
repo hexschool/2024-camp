@@ -137,7 +137,7 @@ const importImage = (num) => {
         class="modal-dialog modal-dialog-centered"
         style="--bs-modal-width: 1076px;"
       >
-        <div class="modal-content">
+        <div class="modal-content rounded-4">
           <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
