@@ -1,19 +1,9 @@
-/* Typography */
-$bs-breadcrumb-divider-color: #919191;
-
-.font-tourney {
-  font-family: "Tourney", sans-serif;
+/* Bootstrap style override */
+.badge {
+  --bs-badge-padding-x: 0.75rem;
+  --bs-badge-padding-y: 0.25rem;
 }
 
-.tracking-wide {
-  letter-spacing: 0.12em;
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-  color: $bs-breadcrumb-divider-color;
-}
-
-/* Navbar */
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   font-weight: 600;
 }
@@ -25,6 +15,21 @@ $bs-breadcrumb-divider-color: #919191;
   inset: 0;
   border: 1px solid #919191;
   mask: conic-gradient(at var(--size) var(--size), rgba(0, 0, 0, 0) 75%, #000 0) 0 0/calc(100% - var(--size)) calc(100% - var(--size)), linear-gradient(#000 0 0) content-box;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  --bs-breadcrumb-divider-color: #919191;
+  color: var(--bs-breadcrumb-divider-color);
+}
+
+/* Typography */
+
+.font-tourney {
+  font-family: "Tourney", sans-serif;
+}
+
+.tracking-wide {
+  letter-spacing: 0.12em;
 }
 
 /* Text decorate */
