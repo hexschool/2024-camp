@@ -3,6 +3,8 @@
 
 此專案為六角學院 2024 軟體工程師體驗營的[個人品牌網站設計稿](https://www.figma.com/file/QX2q4kdSfrwueCioAoTvwA/%E5%85%AD%E8%A7%92%EF%BD%9C2024-%E9%AB%94%E9%A9%97%E7%87%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?type=design&node-id=202%3A2&mode=design&t=V2fuVsYJ1JUIi7Kk-1)之成品
 
+![Required Node version](https://img.shields.io/node/v/create-vue)
+
 ## 開發環境設置
 
 建議使用 [VSCode](https://code.visualstudio.com/) 搭配 [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
