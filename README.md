@@ -33,3 +33,17 @@ $ npm run dev
 ```sh
 $ npm run build
 ```
+
+## 靜態檔案
+位於 `src/assets` 
+
+結構說明
+```
+assets
+├── images              存放圖片
+└── styles              存放 SCSS 檔案
+    ├── _colors.scss       產生自訂顏色的 class
+    ├── _custom.scss       覆蓋以及自訂樣式
+    ├── _variable.scss     主要的變數
+    └── all.scss           進入點
+```
